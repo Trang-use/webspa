@@ -1,0 +1,96 @@
+.massage-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+  
+    .image-section {
+      flex: 1;
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+        height: 500px;
+        width: 500px;
+      }
+    }
+  
+    .text-section {
+      flex: 1;
+      margin-left: 30px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+      h2 {
+        color: #8B4513; /* Màu nâu cho tiêu đề */
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+      }
+  
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        
+        li {
+          margin-bottom: 10px;
+          font-size: 1.1rem;
+          line-height: 1.5;
+          color: #333;
+        }
+      }
+    }
+  }
+  
+  
+  .process-container {
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .process-title {
+    font-size: 28px;
+    font-weight: bold;
+    color:#8B4513;
+    margin-bottom: 20px;
+  }
+  
+  .process-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .process-content ul {
+    width: 60%;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .process-content ul li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    position: relative;
+  }
+  
+  .process-content ul li:before {
+    content: "•";
+    position: absolute;
+    left: -20px;
+    font-size: 24px;
+    color: #f5a623;
+  }
+  
+  .process-content .process-image {
+    width: 35%;
+  }
+  
+  .process-content .process-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
